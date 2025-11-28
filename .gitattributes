@@ -1,0 +1,6 @@
+*.dart linguist-language=Dart
+android/* linguist-detectable=false
+ios/* linguist-detectable=false
+*.cpp linguist-detectable=false
+*.c linguist-detectable=false
+*.h linguist-detectable=false
