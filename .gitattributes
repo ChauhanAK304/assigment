@@ -1,6 +1,17 @@
 *.dart linguist-language=Dart
-android/* linguist-detectable=false
-ios/* linguist-detectable=false
+
+# Ignore native Android/iOS code
+android/** linguist-detectable=false
+ios/** linguist-detectable=false
+build/** linguist-detectable=false
+
+# Ignore C/C++ and CMake build files
 *.cpp linguist-detectable=false
 *.c linguist-detectable=false
 *.h linguist-detectable=false
+*.cc linguist-detectable=false
+*.hpp linguist-detectable=false
+*.cmake linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
+*.ninja linguist-detectable=false
+*.o linguist-detectable=false
